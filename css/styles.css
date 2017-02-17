@@ -1,0 +1,16 @@
+.navbar-brand img {
+  height: 30px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+.navbar-header li {
+  text-decoration: none;
+  display: inline-block;
+}
