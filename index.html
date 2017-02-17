@@ -1,203 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Track Suggester</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="VAoutline" src="img/va-outline2.png">
-          </a>
-          <ul>
-            <li>Placeholder</li>
-            <li>Placeholder</li>
-            <li>Placeholder</li>
-            <li>Placeholder</li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>So you want to be a progammer</h1>
-        <img src="img/code-jumbo1.jpg" alt="Image of lines of code">
-        <p>Answer a few simple questions to find which programming track best aligns with your interests and career goals.</p>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Track Suggester</title>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="VAoutline" src="img/va-outline2.png">
+        </a>
+        <ul>
+          <li>Placeholder</li>
+          <li>Placeholder</li>
+          <li>Placeholder</li>
+          <li>Placeholder</li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+  <div class="jumbotron">
     <div class="container">
+      <h1>So you want to be a progammer</h1>
+      <img src="img/code-jumbo1.jpg" alt="Image of lines of code">
+      <p>Answer a few simple questions to find which programming track best aligns with your interests and career goals.</p>
+    </div>
+  </div>
+  <div class="container">
     <form id="mainForm">
       <div id="mainFormHeader">
         <h3>Below are the questions designed to give us an idea of your interests, and in turn, will allow us to provide programming track suggestions.</h3>
       </div>
-        <div id="surveyQuestion1">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="1">
-                Mobile web development
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="2">
-                enterprise structure
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="3">
-                conent-heavy shit
-              </label>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-default">Default</button>
-      </form>
+      <div class="col-md-6" id="survey1">
+        <h6>Questions 2: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question1">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-6" id="survey2">
+        <h6>Questions 2: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question2">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-6" id="survey3">
+        <h6>Questions 3: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question3">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-6" id="survey4">
+        <h6>Questions 4: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question4">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-6" id="survey5">
+        <h6>Questions 5: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question5">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-6" id="survey6">
+        <h6>Questions 6: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
+        <select class="form-control" id="question6">
+          <option value="0"></option>
+          <option value="1">Tea</option>
+          <option value="2">Kombucha</option>
+          <option value="3">Water</option>
+        </select>
+      </div>
+      <div class="col-md-12">
+      <button type="submit" class="btn btn-default">Default</button>
+      </div>
+    </form>
+  </div>
+  <div class="container" id="suggestedTracks">
+    <div class="panel panel-primary" id="c-sharp">
+      <div class="panel-heading">C#</div>
+      <img src="img/c-sharp-logo.png" alt="C# logo">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-        <!-- <form id="surveyQuestion2">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="chocolate">
-                Chocolate
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="vanilla">
-                Vanilla
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="cookiesandcream">
-                Cookies & Cream
-              </label>
-            </div>
-          </div>
-        </form>
-        <form id="surveyQuestion3">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="chocolate">
-                Chocolate
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="vanilla">
-                Vanilla
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="cookiesandcream">
-                Cookies & Cream
-              </label>
-            </div>
-          </div>
-        </form>
-
-        <form id="surveyQuestion4">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="chocolate">
-                Chocolate
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="vanilla">
-                Vanilla
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="cookiesandcream">
-                Cookies & Cream
-              </label>
-            </div>
-          </div>
-        </form>
-        <form id="surveyQuestion5">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="chocolate">
-                Chocolate
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="vanilla">
-                Vanilla
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="cookiesandcream">
-                Cookies & Cream
-              </label>
-            </div>
-          </div>
-        </form>
-        <form id="surveyQuestion6">
-          <div class="col-md-4">
-            <h6>Questions 1: What Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h6>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="chocolate">
-                Chocolate
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="vanilla">
-                Vanilla
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="cookiesandcream">
-                Cookies & Cream
-              </label>
-            </div>
-          </div>
-        </form>
-      <button type="button" class="btn btn-default">Default</button> -->
-
-    <div class="container" id="suggestedTracks">
-      <div class="panel panel-primary" id="c-sharp">
-        <div class="panel-heading">C#</div>
-        <img src="img/c-sharp-logo.png" alt="C# logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="panel panel-primary" id="java">
-        <div class="panel-heading">Java</div>
-        <img src="img/java-logo.png" alt="Java logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="panel panel-primary" id="php">
-        <div class="panel-heading">php</div>
-        <img src="img/php-logo.png" alt="PHP logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+    <div class="panel panel-primary" id="java">
+      <div class="panel-heading">Java</div>
+      <img src="img/java-logo.png" alt="Java logo">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+    <div class="panel panel-primary" id="php">
+      <div class="panel-heading">php</div>
+      <img src="img/php-logo.png" alt="PHP logo">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
 
 
-  </body>
+</body>
 </html>

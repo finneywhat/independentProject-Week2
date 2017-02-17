@@ -27,20 +27,32 @@
 }
 
 .btn {
-  width: auto;
+  margin-top: 30px;
+  box-shadow: 0 3px 20px black;
 }
 
 #suggestedTracks {
-  margin-top: 30px;
+  margin-top: 70px;
   display: none;
 }
 
+#suggestedTracks img {
+  float: left;
+  padding: 20px;
+}
 
+#suggestedTracks p {
+  padding: 30px 60px 0 60px;
+  margin-left: 100px;
+}
 
 .panel {
-  position: absolute;
   width: 50%;
   margin: auto;
+}
+
+.addMargin {
+  margin-bottom: 20px;
 }
 
 #c-sharp {
