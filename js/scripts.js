@@ -6,10 +6,16 @@ $(document).ready(function(){
 
     if (question1 === "1") {
         $("#suggestedTracks, #java").show();
+        $("#c-sharp").hide();
+        $("#php").hide();
       } else if (question1 === "2") {
         $("#suggestedTracks, #c-sharp").show();
+        $("#php").hide();
+        $("#java").hide();
       } else {
         $("#suggestedTracks, #php").show();
+        $("#c-sharp").hide();
+        $("#java").hide();
      }
 
      $("form#mainForm").change();
