@@ -1,6 +1,9 @@
 $(document).ready(function(){
-  $("form#surveyQuestions").submit(function(event){
-
-    event.preventDefault(function);
+  $("form#mainForm").submit(function(event){
+    debugger;
+    // $(".btn").click(function() {
+      $("#suggestedTracks, #java").show();
+    // });
+    event.preventDefault();
   });
 });

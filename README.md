@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a webpage designed to help prospective Epicodus students determine which programming track is best suited to their interests and career goals. The suggestions will be based on the users input to several questions.
+This is a webpage designed to help prospective Epicodus students determine which programming track is best suited to their interests and career goals. The suggestions will be based on the user's input to several questions.
 
 ## Setup/Installation Requirements
 

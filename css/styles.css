@@ -17,10 +17,42 @@
 
 .jumbotron img {
   box-shadow: 0 4px 20px black;
+  margin: 30px 0;
 }
 
 #mainFormHeader {
   margin-bottom: 40px;
   text-align: center;
   text-shadow: 0 4px 20px lightblue;
+}
+
+.btn {
+  width: auto;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#suggestedTracks {
+  display: none;
+  margin-top: 30px;
+}
+
+
+
+.panel {
+  position: absolute;
+  width: 50%;
+  margin: auto;
+}
+
+#c-sharp {
+  display: none;
+}
+
+#java {
+  display: none;
+}
+
+#php {
+  display: none;
 }
