@@ -1,5 +1,5 @@
-var totalVal = function(number1, number2, number3) {
-  return number1 + number2 + number3;
+var totalVal = function(number1, number2, number3, number4, number5, number6) {
+  return number1 + number2 + number3 + number4 + number5 + number6;
 };
 
 $(document).ready(function(){
@@ -12,14 +12,14 @@ $(document).ready(function(){
   var question4 = parseInt($("#question4").val());
   var question5 = parseInt($("#question5").val());
   var question6 = parseInt($("#question6").val());
-  var result = totalVal(question1, question2, question3);
+  var result = totalVal(question1, question2, question3, question4, question5, question6);
   debugger;
 
-    if (result <= 4) {
+    if (result <= 9) {
         $("#suggestedTracks, #java").show();
         $("#c-sharp").hide();
         $("#php").hide();
-      } else if (result <= 7) {
+      } else if (result <= 14) {
         $("#suggestedTracks, #c-sharp").show();
         $("#php").hide();
         $("#java").hide();

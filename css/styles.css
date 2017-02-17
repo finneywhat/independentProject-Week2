@@ -8,11 +8,20 @@
 
 .navbar-default {
   margin-bottom: 0;
+  background-color: #881FF1;
 }
 
 .navbar-header li {
   text-decoration: none;
-  display: inline-block;
+  display: inline;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-header ul {
+  width: 800px;
+  padding: 20px;
 }
 
 .jumbotron img {
@@ -26,8 +35,12 @@
   text-shadow: 0 4px 20px lightblue;
 }
 
+.col-md-6 {
+  margin-bottom: 80px;
+}
+
 .btn {
-  margin-top: 30px;
+  margin-left: 45%;
   box-shadow: 0 3px 20px black;
 }
 
@@ -65,4 +78,22 @@
 
 #php {
   display: none;
+}
+
+#footer {
+  height: 100px;
+  margin-top: 50px;
+  background-color: rgba(179, 183, 178, .85);
+}
+
+#footer ul {
+padding-top: 40px;
+text-align: center;
+}
+
+#footer li {
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+  font-size: 16px;
 }
