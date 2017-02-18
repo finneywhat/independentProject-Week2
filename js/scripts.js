@@ -6,13 +6,13 @@ $(document).ready(function(){
   $("form#mainForm").submit(function(event) {
     event.preventDefault();
 
-  var question1 = parseInt($("#question1").val());
-  var question2 = parseInt($("#question2").val());
-  var question3 = parseInt($("#question3").val());
-  var question4 = parseInt($("#question4").val());
-  var question5 = parseInt($("#question5").val());
-  var question6 = parseInt($("#question6").val());
-  var result = totalVal(question1, question2, question3, question4, question5, question6);
+  var answer1 = parseInt($("#question1").val());
+  var answer2 = parseInt($("#question2").val());
+  var answer3 = parseInt($("#question3").val());
+  var answer4 = parseInt($("#question4").val());
+  var answer5 = parseInt($("#question5").val());
+  var answer6 = parseInt($("#question6").val());
+  var result = totalVal(answer1, answer2, answer3, answer4, answer5, answer6);
   debugger;
 
     if (result <= 9) {
@@ -28,8 +28,7 @@ $(document).ready(function(){
         $("#c-sharp").hide();
         $("#java").hide();
       }
-
-
+      
      $("form#mainForm").change();
 
   });

@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.jumbotron h1 {
+  text-shadow: 0px 5px 15px #881FF1;
+}
+
 .navbar-default {
   margin-bottom: 0;
   background-color: #881FF1;
@@ -29,10 +33,15 @@
   margin: 30px 0;
 }
 
+h3 {
+  color: darkgray;
+  text-shadow: 0 1px 1px black;
+}
+
 #mainFormHeader {
   margin-bottom: 40px;
   text-align: center;
-  text-shadow: 0 4px 20px lightblue;
+  text-shadow: 0 1px 1px #881FF1;
 }
 
 .col-md-6 {
@@ -41,7 +50,7 @@
 
 .btn {
   margin-left: 45%;
-  box-shadow: 0 3px 20px black;
+  box-shadow: 0 3px 10px #881FF1;
 }
 
 #suggestedTracks {
@@ -59,13 +68,14 @@
   margin-left: 100px;
 }
 
+.em-text {
+  font-style: italic;
+  color: #881FF1;
+}
+
 .panel {
   width: 50%;
   margin: auto;
-}
-
-.addMargin {
-  margin-bottom: 20px;
 }
 
 #c-sharp {
@@ -81,13 +91,16 @@
 }
 
 #footer {
-  height: 100px;
-  margin-top: 50px;
-  background-color: rgba(179, 183, 178, .85);
+  height: 70px;
+  background-color: #881FF1;
+  color: white;
+  font-weight: bold;
+  margin: 40px 5px 0 5px;
+  border-radius: 20px 0 20px 0;
 }
 
 #footer ul {
-padding-top: 40px;
+padding-top: 24px;
 text-align: center;
 }
 
