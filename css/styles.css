@@ -38,6 +38,10 @@ h3 {
   text-shadow: 0 1px 1px black;
 }
 
+.midSection {
+  background-color: #F2F1F3;
+}
+
 #mainFormHeader {
   margin-bottom: 40px;
   text-align: center;
